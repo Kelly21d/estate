@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x500');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .container {
+            padding: 2rem;
+        }
+
+        .properties {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .property {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            flex: 1 1 calc(33.333% - 2rem);
+            box-sizing: border-box;
+        }
+
+        .property img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .property h3 {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Real Estate Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Find Your Dream Home</h1>
+    </div>
+
+    <div class="container">
+        <h2>Featured Properties</h2>
+        <div class="properties">
+            <div class="property">
+                <img src="https://via.placeholder.com/400x300" alt="Property 1">
+                <h3>Beautiful Family House</h3>
+                <p>3 bed, 2 bath, 2000 sqft</p>
+                <p>$500,000</p>
+            </div>
+            <div class="property">
+                <img src="https://via.placeholder.com/400x300" alt="Property 2">
+                <h3>Modern Apartment</h3>
+                <p>2 bed, 1 bath, 1000 sqft</p>
+                <p>$300,000</p>
+            </div>
+            <div class="property">
+                <img src="https://via.placeholder.com/400x300" alt="Property 3">
+                <h3>Luxury Villa</h3>
+                <p>5 bed, 4 bath, 4000 sqft</p>
+                <p>$1,200,000</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Real Estate Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
